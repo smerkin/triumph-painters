@@ -28,9 +28,9 @@ export default function HomePage() {
             </Link>
           </div>
         </div>
-        <div className="absolute inset-0 opacity-10">
+        <div className="absolute inset-0 opacity-30">
           <Image
-            src="https://d3f1ozwy5sre8y.cloudfront.net/s3fs-public/2024-04/Home-painting%20%282%29.png?VersionId=b0H.jMOXYTAjsc16tK1sLQqjvYrvXPih&format=webp&width=3840&quality=75"
+            src="/images/miami-painting-services-hero-background.png"
             alt="Professional painter in Miami"
             fill
             className="object-cover"
@@ -51,10 +51,11 @@ export default function HomePage() {
             <Card className="group hover:shadow-lg transition-shadow overflow-hidden">
               <div className="relative h-64">
                 <Image
-                  src="https://myfirstservice.net/wp-content/uploads/2021/05/Hilton-Garden-Inn-Paint-Project-4.jpg"
-                  alt="Commercial painting in Miami"
+                  src="/images/miami-commercial-painting-contractors.png"
+                  alt="Professional commercial painting contractors working on office building exterior in Miami"
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-300"
+                  style={{ objectPosition: '40% 20%' }}
                 />
                 <div className="absolute bottom-4 left-4 bg-white px-4 py-2 rounded-lg shadow">
                   <h3 className="font-semibold text-gray-800">Commercial</h3>
@@ -66,7 +67,7 @@ export default function HomePage() {
             <Card className="group hover:shadow-lg transition-shadow overflow-hidden">
               <div className="relative h-64">
                 <Image
-                  src="https://lirp.cdn-website.com/9c9ee22f/dms3rep/multi/opt/BravoPros_House_On_TI_Starting-640w.png"
+                  src="/images/miami-industrial-painting-services.png"
                   alt="Industrial painting in Florida"
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-300"
@@ -81,7 +82,7 @@ export default function HomePage() {
             <Card className="group hover:shadow-lg transition-shadow overflow-hidden">
               <div className="relative h-64">
                 <Image
-                  src="https://certapro.com/st-augustine/wp-content/uploads/sites/1350/cache/remote/pub-9fc1f065f07e441b8f35365c774f09ae-r2-dev/3498217534.jpg"
+                  src="/images/miami-interior-house-painting.jpg"
                   alt="Interior house painting in Florida"
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-300"
@@ -96,7 +97,7 @@ export default function HomePage() {
             <Card className="group hover:shadow-lg transition-shadow overflow-hidden">
               <div className="relative h-64">
                 <Image
-                  src="https://brightsidepaintingjax.com/wp-content/uploads/Blue-beach-house-exterior-900x837.webp"
+                  src="/images/miami-exterior-house-painting.webp"
                   alt="Exterior house painting in Florida"
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-300"
@@ -111,7 +112,7 @@ export default function HomePage() {
             <Card className="group hover:shadow-lg transition-shadow overflow-hidden">
               <div className="relative h-64">
                 <Image
-                  src="https://media.istockphoto.com/id/896551048/photo/art-deco-south-beach-miami.jpg?s=612x612&w=0&k=20&c=nWxs3XYO7HF-ZtqHiZ9UUwpC-SGSLy0gSSNNKKjstmc="
+                  src="/images/miami-condo-apartment-painting.jpg"
                   alt="Condo painting in Florida"
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-300"
@@ -126,7 +127,7 @@ export default function HomePage() {
             <Card className="group hover:shadow-lg transition-shadow overflow-hidden">
               <div className="relative h-64">
                 <Image
-                  src="https://images.squarespace-cdn.com/content/v1/63d2c041dc9e733c64906271/345a390a-cc0f-435b-b7f2-6cbc0a16b0e7/tampa+fl+epoxy+coating+contractors.JPG"
+                  src="/images/miami-epoxy-floor-coating.jpg"
                   alt="Epoxy flooring installation in Miami"
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-300"
@@ -317,7 +318,7 @@ export default function HomePage() {
               <div className="lg:col-span-1">
                 <div className="relative h-96 lg:h-full min-h-[400px] rounded-lg overflow-hidden shadow-lg">
                   <Image
-                    src="https://thumbs.dreamstime.com/b/happy-years-old-business-man-suit-standing-office-headshot-portrait-smiling-years-old-professional-business-man-ceo-investor-383005849.jpg"
+                    src="/images/triumph-painters-miami-founder-carlos-rodriguez.jpg"
                     alt="Carlos Rodriguez, Founder of Triumph Painters"
                     fill
                     className="object-cover"
