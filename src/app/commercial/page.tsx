@@ -11,7 +11,7 @@ export default function CommercialPaintingPage() {
       <Header />
 
       {/* Hero Section */}
-      <section className="relative bg-gray-600 text-white py-16 lg:py-20">
+      <section className="relative bg-gray-600 text-white py-20 lg:py-28 min-h-[500px] lg:min-h-[600px] flex items-center">
         <div className="absolute inset-0 bg-black/40"></div>
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-4xl">
@@ -22,7 +22,7 @@ export default function CommercialPaintingPage() {
         </div>
         <div className="absolute inset-0">
           <Image
-            src="https://ext.same-assets.com/330995101/2501392984.png"
+            src="/images/miami-office-building-painting.png"
             alt="Commercial painting project"
             fill
             className="object-cover"
@@ -66,7 +66,7 @@ export default function CommercialPaintingPage() {
                 Contact Us
               </div>
               <Image
-                src="https://ext.same-assets.com/330995101/2501392984.png"
+                src="/images/miami-office-building-painting.png"
                 alt="Man painting a commercial building"
                 width={500}
                 height={400}
@@ -103,7 +103,7 @@ export default function CommercialPaintingPage() {
             {/* Row 1 */}
             <div className="relative">
               <Image
-                src="https://ext.same-assets.com/330995101/2440509905.webp"
+                src="/images/miami-commercial-exterior-painting.webp"
                 alt="Offices & Medical Buildings"
                 width={400}
                 height={300}
@@ -116,7 +116,7 @@ export default function CommercialPaintingPage() {
 
             <div className="relative">
               <Image
-                src="https://ext.same-assets.com/330995101/1264845856.webp"
+                src="/images/miami-retail-store-painting.webp"
                 alt="Retail Space & Big Box Stores"
                 width={400}
                 height={300}
@@ -129,7 +129,7 @@ export default function CommercialPaintingPage() {
 
             <div className="relative">
               <Image
-                src="https://ext.same-assets.com/330995101/3198368047.webp"
+                src="/images/miami-warehouse-painting-services.webp"
                 alt="Restaurant & Fast Food Store"
                 width={400}
                 height={300}
@@ -143,7 +143,7 @@ export default function CommercialPaintingPage() {
             {/* Row 2 */}
             <div className="relative">
               <Image
-                src="https://ext.same-assets.com/330995101/3222661741.webp"
+                src="/images/miami-restaurant-painting.webp"
                 alt="Commercial Kitchen & Cafeteria"
                 width={400}
                 height={300}
@@ -156,7 +156,7 @@ export default function CommercialPaintingPage() {
 
             <div className="relative">
               <Image
-                src="https://ext.same-assets.com/330995101/2220938963.webp"
+                src="/images/miami-shopping-center-painting.webp"
                 alt="Entertainment Venue & Convention"
                 width={400}
                 height={300}
@@ -169,7 +169,7 @@ export default function CommercialPaintingPage() {
 
             <div className="relative">
               <Image
-                src="https://ext.same-assets.com/330995101/3962340456.webp"
+                src="/images/miami-hotel-painting-services.webp"
                 alt="School, Post-Secondary, & Daycare"
                 width={400}
                 height={300}
@@ -183,7 +183,7 @@ export default function CommercialPaintingPage() {
             {/* Row 3 */}
             <div className="relative">
               <Image
-                src="https://ext.same-assets.com/330995101/3684541665.webp"
+                src="/images/miami-medical-office-painting.webp"
                 alt="Industrial, Warehouse, & Factory"
                 width={400}
                 height={300}
@@ -196,7 +196,7 @@ export default function CommercialPaintingPage() {
 
             <div className="relative">
               <Image
-                src="https://ext.same-assets.com/330995101/1590948023.webp"
+                src="/images/miami-school-painting-contractors.webp"
                 alt="Distribution & Production Plants"
                 width={400}
                 height={300}
@@ -209,7 +209,7 @@ export default function CommercialPaintingPage() {
 
             <div className="relative">
               <Image
-                src="https://ext.same-assets.com/330995101/901601652.webp"
+                src="/images/miami-church-painting-services.webp"
                 alt="Hotel, Motel, Resort, & Hospitality"
                 width={400}
                 height={300}
@@ -223,7 +223,7 @@ export default function CommercialPaintingPage() {
             {/* Row 4 */}
             <div className="relative">
               <Image
-                src="https://ext.same-assets.com/330995101/4122510326.webp"
+                src="/images/miami-gym-painting.webp"
                 alt="Hospital & Long-term Care Facility"
                 width={400}
                 height={300}
@@ -236,7 +236,7 @@ export default function CommercialPaintingPage() {
 
             <div className="relative">
               <Image
-                src="https://ext.same-assets.com/330995101/3626963679.webp"
+                src="/images/miami-dental-office-painting.webp"
                 alt="Church, Gym, Gallery, & Museum"
                 width={400}
                 height={300}
@@ -249,7 +249,7 @@ export default function CommercialPaintingPage() {
 
             <div className="relative">
               <Image
-                src="https://ext.same-assets.com/330995101/2383879331.webp"
+                src="/images/miami-bank-painting-services.webp"
                 alt="Restroom, Changeroom, & Showers"
                 width={400}
                 height={300}
@@ -275,7 +275,7 @@ export default function CommercialPaintingPage() {
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start">
               <div className="lg:col-span-1">
                 <Image
-                  src="https://ext.same-assets.com/330995101/3768510832.png"
+                  src="/images/miami-high-gloss-paint.png"
                   alt="Keeping Up Your Maintenance Schedule"
                   width={300}
                   height={200}
@@ -297,7 +297,7 @@ export default function CommercialPaintingPage() {
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start">
               <div className="lg:col-span-1">
                 <Image
-                  src="https://ext.same-assets.com/330995101/587840938.png"
+                  src="/images/miami-drywall-repair.png"
                   alt="Drop-Deck Ceiling Spraying"
                   width={300}
                   height={200}
@@ -320,7 +320,7 @@ export default function CommercialPaintingPage() {
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start">
               <div className="lg:col-span-1">
                 <Image
-                  src="https://ext.same-assets.com/330995101/71043554.png"
+                  src="/images/miami-paint-removal-services.png"
                   alt="Epoxy Flooring Installation & Repair"
                   width={300}
                   height={200}
@@ -343,7 +343,7 @@ export default function CommercialPaintingPage() {
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start">
               <div className="lg:col-span-1">
                 <Image
-                  src="https://ext.same-assets.com/330995101/182696919.png"
+                  src="/images/miami-door-painting-services.png"
                   alt="Concrete Polishing & Repair"
                   width={300}
                   height={200}
@@ -365,7 +365,7 @@ export default function CommercialPaintingPage() {
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start">
               <div className="lg:col-span-1">
                 <Image
-                  src="https://ext.same-assets.com/330995101/924672828.png"
+                  src="/images/miami-color-consultation-miami.png"
                   alt="Specialty Coatings"
                   width={300}
                   height={200}
@@ -387,7 +387,7 @@ export default function CommercialPaintingPage() {
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start">
               <div className="lg:col-span-1">
                 <Image
-                  src="https://ext.same-assets.com/330995101/3189386235.png"
+                  src="/images/miami-textured-wall-painting.png"
                   alt="Drywall Patching, Taping, Repair, & Caulking"
                   width={300}
                   height={200}
@@ -408,7 +408,7 @@ export default function CommercialPaintingPage() {
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start">
               <div className="lg:col-span-1">
                 <Image
-                  src="https://ext.same-assets.com/330995101/373689981.png"
+                  src="/images/miami-semi-gloss-paint.png"
                   alt="Stucco / Popcorn Ceiling Painting & Removal"
                   width={300}
                   height={200}
@@ -431,7 +431,7 @@ export default function CommercialPaintingPage() {
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start">
               <div className="lg:col-span-1">
                 <Image
-                  src="https://ext.same-assets.com/330995101/1476228118.png"
+                  src="/images/miami-window-frame-painting.png"
                   alt="Line Painting & Marking"
                   width={300}
                   height={200}
@@ -453,7 +453,7 @@ export default function CommercialPaintingPage() {
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start">
               <div className="lg:col-span-1">
                 <Image
-                  src="https://ext.same-assets.com/330995101/3966337980.png"
+                  src="/images/miami-primer-application.png"
                   alt="Graffiti Removal & Anti-Graffiti Painting"
                   width={300}
                   height={200}
@@ -475,7 +475,7 @@ export default function CommercialPaintingPage() {
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start">
               <div className="lg:col-span-1">
                 <Image
-                  src="https://ext.same-assets.com/330995101/238034766.png"
+                  src="/images/miami-chair-rail-painting.png"
                   alt="Outdoor Patio, Bench, & Fence Painting"
                   width={300}
                   height={200}
@@ -508,7 +508,7 @@ export default function CommercialPaintingPage() {
             <Card className="overflow-hidden">
               <div className="relative h-48">
                 <Image
-                  src="https://ext.same-assets.com/330995101/1859394675.png"
+                  src="/images/miami-trim-painting-miami.png"
                   alt="Brick Painting & Staining"
                   fill
                   className="object-cover"
@@ -528,7 +528,7 @@ export default function CommercialPaintingPage() {
             <Card className="overflow-hidden">
               <div className="relative h-48">
                 <Image
-                  src="https://ext.same-assets.com/330995101/507780978.png"
+                  src="/images/miami-caulking-services.png"
                   alt="Aluminium Siding Painting"
                   fill
                   className="object-cover"
@@ -548,7 +548,7 @@ export default function CommercialPaintingPage() {
             <Card className="overflow-hidden">
               <div className="relative h-48">
                 <Image
-                  src="https://ext.same-assets.com/330995101/1416161902.png"
+                  src="/images/miami-gate-painting-services.png"
                   alt="Vinyl Siding Painting"
                   fill
                   className="object-cover"
@@ -568,7 +568,7 @@ export default function CommercialPaintingPage() {
             <Card className="overflow-hidden">
               <div className="relative h-48">
                 <Image
-                  src="https://ext.same-assets.com/330995101/3068786101.png"
+                  src="/images/miami-feature-wall-painting.png"
                   alt="Vinyl Window Painting"
                   fill
                   className="object-cover"
@@ -588,7 +588,7 @@ export default function CommercialPaintingPage() {
             <Card className="overflow-hidden">
               <div className="relative h-48">
                 <Image
-                  src="https://ext.same-assets.com/330995101/1229130676.png"
+                  src="/images/miami-paint-estimate-miami.png"
                   alt="Exterior Wood Painting"
                   fill
                   className="object-cover"
@@ -608,7 +608,7 @@ export default function CommercialPaintingPage() {
             <Card className="overflow-hidden">
               <div className="relative h-48">
                 <Image
-                  src="https://ext.same-assets.com/330995101/3700993548.png"
+                  src="/images/miami-satin-paint-finish.png"
                   alt="Exterior Stucco Painting"
                   fill
                   className="object-cover"
@@ -924,75 +924,6 @@ export default function CommercialPaintingPage() {
           </div>
         </div>
       </section>
-
-      {/* Footer */}
-      <footer className="bg-gray-900 text-white py-12">
-        <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-            {/* Contact Info */}
-            <div>
-              <h3 className="text-lg font-semibold mb-4 text-accent">CONTACT INFO</h3>
-              <div className="space-y-3">
-                <p className="flex items-start">
-                  <span className="text-gray-300">📍</span>
-                  <span className="ml-2">1450 Brickell Bay Dr, Miami, FL 33131, USA</span>
-                </p>
-                <p className="flex items-center">
-                  <span className="text-gray-300">📞</span>
-                  <a href="tel:305-555-0123" className="ml-2 hover:text-accent">305-555-0123</a>
-                </p>
-                <p className="flex items-center">
-                  <span className="text-gray-300">✉️</span>
-                  <a href="mailto:info@triumphpainters.com" className="ml-2 hover:text-accent">
-                    info@triumphpainters.com
-                  </a>
-                </p>
-              </div>
-            </div>
-
-            {/* Services */}
-            <div>
-              <h3 className="text-lg font-semibold mb-4 text-accent">SERVICES</h3>
-              <ul className="space-y-2">
-                <li><Link href="/commercial" className="hover:text-accent">Commercial Painting</Link></li>
-                <li><Link href="/industrial" className="hover:text-accent">Industrial Painting</Link></li>
-                <li><Link href="/residential" className="hover:text-accent">Residential Painting</Link></li>
-                <li><Link href="/interior" className="hover:text-accent">Interior Painting</Link></li>
-                <li><Link href="/exterior" className="hover:text-accent">Exterior Painting</Link></li>
-                <li><Link href="/condo" className="hover:text-accent">Condo Painting</Link></li>
-                <li><Link href="/epoxy" className="hover:text-accent">Epoxy Flooring</Link></li>
-              </ul>
-            </div>
-
-            {/* Helpful Links */}
-            <div>
-              <h3 className="text-lg font-semibold mb-4 text-accent">HELPFUL LINKS</h3>
-              <ul className="space-y-2">
-                <li><Link href="/" className="hover:text-accent">Home</Link></li>
-                <li><Link href="/contact" className="hover:text-accent">Contact Us</Link></li>
-                <li><Link href="/service-areas" className="hover:text-accent">Service Areas</Link></li>
-                <li><Link href="/resources" className="hover:text-accent">Learning Center</Link></li>
-                <li><Link href="/about" className="hover:text-accent">About Us</Link></li>
-              </ul>
-            </div>
-
-            {/* Social Media */}
-            <div>
-              <h3 className="text-lg font-semibold mb-4 text-accent">FOLLOW US</h3>
-              <div className="flex space-x-4">
-                <a href="#" className="text-gray-300 hover:text-accent text-2xl">📘</a>
-                <a href="#" className="text-gray-300 hover:text-accent text-2xl">📷</a>
-                <a href="#" className="text-gray-300 hover:text-accent text-2xl">🔗</a>
-                <a href="#" className="text-gray-300 hover:text-accent text-2xl">⭐</a>
-              </div>
-            </div>
-          </div>
-
-          <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
-            <p>Privacy Policy - Copyright 2025 Triumph Painters</p>
-          </div>
-        </div>
-      </footer>
     </div>
   )
 }

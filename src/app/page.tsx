@@ -11,7 +11,7 @@ export default function HomePage() {
       <Header />
 
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-primary to-primary/80 text-white py-20 lg:py-32">
+      <section className="relative bg-gradient-to-br from-primary to-primary/80 text-white py-20 lg:py-28 min-h-[500px] lg:min-h-[600px] flex items-center">
         <div className="absolute inset-0 bg-black/20"></div>
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
@@ -279,16 +279,16 @@ export default function HomePage() {
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl font-bold text-center mb-4 text-gray-800">
-            A MESSAGE FROM THE TRIUMPH PAINTERS FOUNDER
+            A MESSAGE FROM THE TRIUMPH PAINTERS FOUNDERS
           </h2>
           <div className="w-24 h-1 bg-accent mx-auto mb-12"></div>
 
           <div className="max-w-6xl mx-auto">
-            <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-center">
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-stretch">
               <div className="lg:col-span-2">
                 <div className="space-y-6 text-gray-600 leading-relaxed">
                   <p>
-                    When I founded Triumph Painters, I recognized a gap in the Miami market for a painting company that
+                    When we founded Triumph Painters, we recognized a gap in the Miami market for a painting company that
                     prioritized not only exceptional workmanship but also delivering an outstanding customer experience.
                     Our commitment is to ensure that every project is executed with professionalism, courtesy, and efficiency.
                     We exclusively employ skilled Miami painters, and our clients can trust that they will be respectful,
@@ -306,22 +306,22 @@ export default function HomePage() {
                     and we guarantee you won't be disappointed with our results.
                   </p>
                   <p>
-                    I take immense pride in the painting company that Triumph Painters has become, and I'm excited about
+                    We take immense pride in the painting company that Triumph Painters has become, and we're excited about
                     what the future holds for us.
                   </p>
                   <div className="pt-4">
-                    <p className="font-semibold text-gray-800">Carlos Rodriguez</p>
-                    <p className="text-gray-600">Founder, Triumph Painters</p>
+                    <p className="font-semibold text-gray-800">Ara Kazarian and Simon Merkin</p>
+                    <p className="text-gray-600">Founders, Triumph Painters</p>
                   </div>
                 </div>
               </div>
               <div className="lg:col-span-1">
-                <div className="relative h-96 lg:h-full min-h-[400px] rounded-lg overflow-hidden shadow-lg">
+                <div className="relative h-96 lg:h-full rounded-lg overflow-hidden shadow-lg">
                   <Image
                     src="/images/triumph-painters-miami-founder-carlos-rodriguez.jpg"
-                    alt="Carlos Rodriguez, Founder of Triumph Painters"
+                    alt="Triumph Painters Founders"
                     fill
-                    className="object-cover"
+                    className="object-cover object-center"
                   />
                 </div>
               </div>
@@ -329,75 +329,6 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
-      {/* Footer */}
-      <footer className="bg-gray-900 text-white py-12">
-        <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-            {/* Contact Info */}
-            <div>
-              <h3 className="text-lg font-semibold mb-4 text-accent">CONTACT INFO</h3>
-              <div className="space-y-3">
-                <p className="flex items-start">
-                  <span className="text-gray-300">📍</span>
-                  <span className="ml-2">1450 Brickell Bay Dr, Miami, FL 33131, USA</span>
-                </p>
-                <p className="flex items-center">
-                  <span className="text-gray-300">📞</span>
-                  <a href="tel:305-555-0123" className="ml-2 hover:text-accent">305-555-0123</a>
-                </p>
-                <p className="flex items-center">
-                  <span className="text-gray-300">✉️</span>
-                  <a href="mailto:info@triumphpainters.com" className="ml-2 hover:text-accent">
-                    info@triumphpainters.com
-                  </a>
-                </p>
-              </div>
-            </div>
-
-            {/* Services */}
-            <div>
-              <h3 className="text-lg font-semibold mb-4 text-accent">SERVICES</h3>
-              <ul className="space-y-2">
-                <li><Link href="/commercial" className="hover:text-accent">Commercial Painting</Link></li>
-                <li><Link href="/industrial" className="hover:text-accent">Industrial Painting</Link></li>
-                <li><Link href="/residential" className="hover:text-accent">Residential Painting</Link></li>
-                <li><Link href="/interior" className="hover:text-accent">Interior Painting</Link></li>
-                <li><Link href="/exterior" className="hover:text-accent">Exterior Painting</Link></li>
-                <li><Link href="/condo" className="hover:text-accent">Condo Painting</Link></li>
-                <li><Link href="/epoxy" className="hover:text-accent">Epoxy Flooring</Link></li>
-              </ul>
-            </div>
-
-            {/* Helpful Links */}
-            <div>
-              <h3 className="text-lg font-semibold mb-4 text-accent">HELPFUL LINKS</h3>
-              <ul className="space-y-2">
-                <li><Link href="/" className="hover:text-accent">Home</Link></li>
-                <li><Link href="/contact" className="hover:text-accent">Contact Us</Link></li>
-                <li><Link href="/service-areas" className="hover:text-accent">Service Areas</Link></li>
-                <li><Link href="/resources" className="hover:text-accent">Learning Center</Link></li>
-                <li><Link href="/about" className="hover:text-accent">About Us</Link></li>
-              </ul>
-            </div>
-
-            {/* Social Media */}
-            <div>
-              <h3 className="text-lg font-semibold mb-4 text-accent">FOLLOW US</h3>
-              <div className="flex space-x-4">
-                <a href="#" className="text-gray-300 hover:text-accent text-2xl">📘</a>
-                <a href="#" className="text-gray-300 hover:text-accent text-2xl">📷</a>
-                <a href="#" className="text-gray-300 hover:text-accent text-2xl">🔗</a>
-                <a href="#" className="text-gray-300 hover:text-accent text-2xl">⭐</a>
-              </div>
-            </div>
-          </div>
-
-          <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
-            <p>Privacy Policy - Copyright 2025 Triumph Painters</p>
-          </div>
-        </div>
-      </footer>
     </div>
   )
 }

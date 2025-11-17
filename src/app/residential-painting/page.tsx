@@ -11,7 +11,7 @@ export default function ResidentialPaintingPage() {
       <Header />
 
       {/* Hero Section */}
-      <section className="relative bg-gray-600 text-white py-16 lg:py-20">
+      <section className="relative bg-gray-600 text-white py-20 lg:py-28 min-h-[500px] lg:min-h-[600px] flex items-center">
         <div className="absolute inset-0 bg-black/40"></div>
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-4xl">
@@ -22,7 +22,7 @@ export default function ResidentialPaintingPage() {
         </div>
         <div className="absolute inset-0">
           <Image
-            src="https://ext.same-assets.com/330995101/4043602854.png"
+            src="/images/miami-paint-prep-work.png"
             alt="Professional painter painting home interior"
             fill
             className="object-cover"
@@ -66,7 +66,7 @@ export default function ResidentialPaintingPage() {
                 Contact Us
               </div>
               <Image
-                src="https://ext.same-assets.com/330995101/3264808087.png"
+                src="/images/miami-painting-quote-miami.png"
                 alt="Professional painter painting interior room in house"
                 width={500}
                 height={400}
@@ -104,7 +104,7 @@ export default function ResidentialPaintingPage() {
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start">
               <div className="lg:col-span-1">
                 <Image
-                  src="https://ext.same-assets.com/330995101/724021199.png"
+                  src="/images/miami-stain-removal-miami.png"
                   alt="House Interior"
                   width={300}
                   height={200}
@@ -125,7 +125,7 @@ export default function ResidentialPaintingPage() {
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start">
               <div className="lg:col-span-1">
                 <Image
-                  src="https://ext.same-assets.com/330995101/2630143908.png"
+                  src="/images/miami-residential-painting-gallery.png"
                   alt="House Exterior"
                   width={300}
                   height={200}
@@ -147,7 +147,7 @@ export default function ResidentialPaintingPage() {
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start">
               <div className="lg:col-span-1">
                 <Image
-                  src="https://ext.same-assets.com/330995101/3671522003.png"
+                  src="/images/miami-eggshell-paint-finish.png"
                   alt="Condos & Apartments"
                   width={300}
                   height={200}
@@ -215,7 +215,7 @@ export default function ResidentialPaintingPage() {
 
           <div className="mt-12">
             <Image
-              src="https://ext.same-assets.com/330995101/1265679883.png"
+              src="/images/miami-deck-staining-services.png"
               alt="Nicely painted open concept interior room"
               width={600}
               height={400}
@@ -237,7 +237,7 @@ export default function ResidentialPaintingPage() {
             <Card className="overflow-hidden">
               <div className="relative h-48">
                 <Image
-                  src="https://ext.same-assets.com/330995101/2681065692.png"
+                  src="/images/miami-ceiling-painting-miami.png"
                   alt="Drywall Patching, Taping, Repair"
                   fill
                   className="object-cover"
@@ -256,7 +256,7 @@ export default function ResidentialPaintingPage() {
             <Card className="overflow-hidden">
               <div className="relative h-48">
                 <Image
-                  src="https://ext.same-assets.com/330995101/3615229724.png"
+                  src="/images/miami-smooth-wall-painting.png"
                   alt="Epoxy Flooring"
                   fill
                   className="object-cover"
@@ -275,7 +275,7 @@ export default function ResidentialPaintingPage() {
             <Card className="overflow-hidden">
               <div className="relative h-48">
                 <Image
-                  src="https://ext.same-assets.com/330995101/4095035844.png"
+                  src="/images/miami-sanding-services.png"
                   alt="Concrete Polishing"
                   fill
                   className="object-cover"
@@ -294,7 +294,7 @@ export default function ResidentialPaintingPage() {
             <Card className="overflow-hidden">
               <div className="relative h-48">
                 <Image
-                  src="https://ext.same-assets.com/330995101/3671522003.png"
+                  src="/images/miami-eggshell-paint-finish.png"
                   alt="Wallpaper Removal"
                   fill
                   className="object-cover"
@@ -313,7 +313,7 @@ export default function ResidentialPaintingPage() {
             <Card className="overflow-hidden">
               <div className="relative h-48">
                 <Image
-                  src="https://ext.same-assets.com/330995101/1048624127.png"
+                  src="/images/miami-pressure-washing-services.png"
                   alt="Interior Caulking"
                   fill
                   className="object-cover"
@@ -332,7 +332,7 @@ export default function ResidentialPaintingPage() {
             <Card className="overflow-hidden">
               <div className="relative h-48">
                 <Image
-                  src="https://ext.same-assets.com/330995101/2321624598.png"
+                  src="/images/miami-baseboard-painting.png"
                   alt="Interior & Exterior Stucco Painting or Removal"
                   fill
                   className="object-cover"
@@ -351,7 +351,7 @@ export default function ResidentialPaintingPage() {
             <Card className="overflow-hidden">
               <div className="relative h-48">
                 <Image
-                  src="https://ext.same-assets.com/330995101/2088842428.png"
+                  src="/images/miami-crown-molding-painting.png"
                   alt="Brick Painting & Staining"
                   fill
                   className="object-cover"
@@ -370,7 +370,7 @@ export default function ResidentialPaintingPage() {
             <Card className="overflow-hidden">
               <div className="relative h-48">
                 <Image
-                  src="https://ext.same-assets.com/330995101/1504562691.png"
+                  src="/images/miami-shutter-painting-miami.png"
                   alt="Aluminium Siding Painting"
                   fill
                   className="object-cover"
@@ -389,7 +389,7 @@ export default function ResidentialPaintingPage() {
             <Card className="overflow-hidden">
               <div className="relative h-48">
                 <Image
-                  src="https://ext.same-assets.com/330995101/2882963946.png"
+                  src="/images/miami-accent-wall-painting.png"
                   alt="Vinyl Siding & Window Painting"
                   fill
                   className="object-cover"
@@ -660,75 +660,6 @@ export default function ResidentialPaintingPage() {
           </div>
         </div>
       </section>
-
-      {/* Footer */}
-      <footer className="bg-gray-900 text-white py-12">
-        <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-            {/* Contact Info */}
-            <div>
-              <h3 className="text-lg font-semibold mb-4 text-accent">CONTACT INFO</h3>
-              <div className="space-y-3">
-                <p className="flex items-start">
-                  <span className="text-gray-300">📍</span>
-                  <span className="ml-2">1450 Brickell Bay Dr, Miami, FL 33131, USA</span>
-                </p>
-                <p className="flex items-center">
-                  <span className="text-gray-300">📞</span>
-                  <a href="tel:305-555-0123" className="ml-2 hover:text-accent">305-555-0123</a>
-                </p>
-                <p className="flex items-center">
-                  <span className="text-gray-300">✉️</span>
-                  <a href="mailto:info@triumphpainters.com" className="ml-2 hover:text-accent">
-                    info@triumphpainters.com
-                  </a>
-                </p>
-              </div>
-            </div>
-
-            {/* Services */}
-            <div>
-              <h3 className="text-lg font-semibold mb-4 text-accent">SERVICES</h3>
-              <ul className="space-y-2">
-                <li><Link href="/commercial" className="hover:text-accent">Commercial Painting</Link></li>
-                <li><Link href="/industrial" className="hover:text-accent">Industrial Painting</Link></li>
-                <li><Link href="/residential-painting" className="hover:text-accent">Residential Painting</Link></li>
-                <li><Link href="/interior-painting" className="hover:text-accent">Interior Painting</Link></li>
-                <li><Link href="/exterior-painting" className="hover:text-accent">Exterior Painting</Link></li>
-                <li><Link href="/condo-painting" className="hover:text-accent">Condo Painting</Link></li>
-                <li><Link href="/epoxy" className="hover:text-accent">Epoxy Flooring</Link></li>
-              </ul>
-            </div>
-
-            {/* Helpful Links */}
-            <div>
-              <h3 className="text-lg font-semibold mb-4 text-accent">HELPFUL LINKS</h3>
-              <ul className="space-y-2">
-                <li><Link href="/" className="hover:text-accent">Home</Link></li>
-                <li><Link href="/contact" className="hover:text-accent">Contact Us</Link></li>
-                <li><Link href="/service-areas" className="hover:text-accent">Service Areas</Link></li>
-                <li><Link href="/resources" className="hover:text-accent">Learning Center</Link></li>
-                <li><Link href="/about" className="hover:text-accent">About Us</Link></li>
-              </ul>
-            </div>
-
-            {/* Social Media */}
-            <div>
-              <h3 className="text-lg font-semibold mb-4 text-accent">FOLLOW US</h3>
-              <div className="flex space-x-4">
-                <a href="#" className="text-gray-300 hover:text-accent text-2xl">📘</a>
-                <a href="#" className="text-gray-300 hover:text-accent text-2xl">📷</a>
-                <a href="#" className="text-gray-300 hover:text-accent text-2xl">🔗</a>
-                <a href="#" className="text-gray-300 hover:text-accent text-2xl">⭐</a>
-              </div>
-            </div>
-          </div>
-
-          <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
-            <p>Privacy Policy - Copyright 2025 Triumph Painters</p>
-          </div>
-        </div>
-      </footer>
     </div>
   )
 }

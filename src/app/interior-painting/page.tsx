@@ -11,7 +11,7 @@ export default function InteriorPaintingPage() {
       <Header />
 
       {/* Hero Section */}
-      <section className="relative bg-gray-600 text-white py-16 lg:py-20">
+      <section className="relative bg-gray-600 text-white py-20 lg:py-28 min-h-[500px] lg:min-h-[600px] flex items-center">
         <div className="absolute inset-0 bg-black/40"></div>
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-4xl">
@@ -22,7 +22,7 @@ export default function InteriorPaintingPage() {
         </div>
         <div className="absolute inset-0">
           <Image
-            src="https://ext.same-assets.com/330995101/1630270605.webp"
+            src="/images/miami-interior-painting-hero.webp"
             alt="Interior painting project"
             fill
             className="object-cover"
@@ -63,7 +63,7 @@ export default function InteriorPaintingPage() {
                 Contact Us
               </div>
               <Image
-                src="https://ext.same-assets.com/330995101/2336757005.png"
+                src="/images/miami-interior-wall-painting.png"
                 alt="Paint roller and bucket in home interior"
                 width={500}
                 height={400}
@@ -100,7 +100,7 @@ export default function InteriorPaintingPage() {
             {/* Row 1 */}
             <div className="relative">
               <Image
-                src="https://ext.same-assets.com/330995101/1169308186.webp"
+                src="/images/miami-living-areas-painting.webp"
                 alt="Living Areas"
                 width={400}
                 height={300}
@@ -113,7 +113,7 @@ export default function InteriorPaintingPage() {
 
             <div className="relative">
               <Image
-                src="https://ext.same-assets.com/330995101/3320098255.png"
+                src="/images/miami-bedroom-painting.png"
                 alt="Bedrooms"
                 width={400}
                 height={300}
@@ -126,7 +126,8 @@ export default function InteriorPaintingPage() {
 
             <div className="relative">
               <Image
-                src="https://ext.same-assets.com/330995101/3526059868.webp"
+                src="/images/miami-bath-room-painting.webp"
+                
                 alt="Bathrooms"
                 width={400}
                 height={300}
@@ -140,20 +141,20 @@ export default function InteriorPaintingPage() {
             {/* Row 2 */}
             <div className="relative">
               <Image
-                src="https://ext.same-assets.com/330995101/3656355598.webp"
+                src="/images/miami-kitchen-painting.webp"
                 alt="Kitchens & Cabinets"
                 width={400}
                 height={300}
                 className="w-full h-64 object-cover rounded-lg shadow-md"
               />
               <div className="absolute bottom-4 left-4 bg-white px-4 py-2 rounded-lg shadow">
-                <h3 className="font-semibold text-gray-800">Kitchens & Cabinets</h3>
+                <h3 className="font-semibold text-gray-800">Kitchens</h3>
               </div>
             </div>
 
             <div className="relative">
               <Image
-                src="https://ext.same-assets.com/330995101/2109132653.webp"
+                src="/images/miami-basement-painting.webp"
                 alt="Basements"
                 width={400}
                 height={300}
@@ -166,7 +167,7 @@ export default function InteriorPaintingPage() {
 
             <div className="relative">
               <Image
-                src="https://ext.same-assets.com/330995101/4078096962.webp"
+                src="/images/miami-ceilings-painintg.webp"
                 alt="Ceilings"
                 width={400}
                 height={300}
@@ -180,7 +181,7 @@ export default function InteriorPaintingPage() {
             {/* Row 3 */}
             <div className="relative">
               <Image
-                src="https://ext.same-assets.com/330995101/3070396540.webp"
+                src="/images/miami-trim-crown-molding-painting.webp"
                 alt="Trim & Crown Molding"
                 width={400}
                 height={300}
@@ -193,7 +194,7 @@ export default function InteriorPaintingPage() {
 
             <div className="relative">
               <Image
-                src="https://ext.same-assets.com/330995101/1248905644.webp"
+                src="/images/miami-door-painting.webp"
                 alt="Doors"
                 width={400}
                 height={300}
@@ -206,7 +207,7 @@ export default function InteriorPaintingPage() {
 
             <div className="relative">
               <Image
-                src="https://ext.same-assets.com/330995101/3308892056.webp"
+                src="/images/miami-dining-room-painting.webp"
                 alt="Dining Rooms"
                 width={400}
                 height={300}
@@ -220,7 +221,7 @@ export default function InteriorPaintingPage() {
             {/* Row 4 */}
             <div className="relative">
               <Image
-                src="https://ext.same-assets.com/330995101/1901350660.webp"
+                src="/images/miami-home-office-painting.webp"
                 alt="Home Office"
                 width={400}
                 height={300}
@@ -233,7 +234,7 @@ export default function InteriorPaintingPage() {
 
             <div className="relative">
               <Image
-                src="https://ext.same-assets.com/330995101/1222315249.webp"
+                src="/images/miami-nursery-room-painting.webp"
                 alt="Nurseries"
                 width={400}
                 height={300}
@@ -246,7 +247,7 @@ export default function InteriorPaintingPage() {
 
             <div className="relative">
               <Image
-                src="https://ext.same-assets.com/330995101/2179151433.webp"
+                src="/images/miami-hallway-painting.webp"
                 alt="Hallways"
                 width={400}
                 height={300}
@@ -260,7 +261,7 @@ export default function InteriorPaintingPage() {
             {/* Row 5 */}
             <div className="relative">
               <Image
-                src="https://ext.same-assets.com/330995101/2735585729.webp"
+                src="/images/miami-staircases-painting.webp"
                 alt="Staircases"
                 width={400}
                 height={300}
@@ -273,7 +274,7 @@ export default function InteriorPaintingPage() {
 
             <div className="relative">
               <Image
-                src="https://ext.same-assets.com/330995101/3428084373.webp"
+                src="/images/miami-foyer-painting.webp"
                 alt="Foyers & Entrances"
                 width={400}
                 height={300}
@@ -286,7 +287,7 @@ export default function InteriorPaintingPage() {
 
             <div className="relative">
               <Image
-                src="https://ext.same-assets.com/330995101/3189003317.webp"
+                src="/images/miami-garage-painting.webp"
                 alt="Garages"
                 width={400}
                 height={300}
@@ -312,7 +313,7 @@ export default function InteriorPaintingPage() {
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start">
               <div className="lg:col-span-1">
                 <Image
-                  src="https://ext.same-assets.com/330995101/3058639561.png"
+                  src="/images/miami-drywall-patching-taping-repair.png"
                   alt="Drywall Patching, Taping, & Repair"
                   width={300}
                   height={200}
@@ -333,7 +334,7 @@ export default function InteriorPaintingPage() {
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start">
               <div className="lg:col-span-1">
                 <Image
-                  src="https://ext.same-assets.com/330995101/3883700395.png"
+                  src="/images/miami-wallpaper-removal-services.png"
                   alt="Wallpaper Removal"
                   width={300}
                   height={200}
@@ -355,7 +356,7 @@ export default function InteriorPaintingPage() {
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start">
               <div className="lg:col-span-1">
                 <Image
-                  src="https://ext.same-assets.com/330995101/537849833.png"
+                  src="/images/miami-stucco-popcorn-ceiling-painting-services.png"
                   alt="Stucco / Popcorn Ceiling Painting"
                   width={300}
                   height={200}
@@ -376,7 +377,7 @@ export default function InteriorPaintingPage() {
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start">
               <div className="lg:col-span-1">
                 <Image
-                  src="https://ext.same-assets.com/330995101/1385806977.png"
+                  src="/images/miami-stucco-popcorn-ceiling-removal.png"
                   alt="Stucco / Popcorn Ceiling Removal"
                   width={300}
                   height={200}
@@ -397,7 +398,7 @@ export default function InteriorPaintingPage() {
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start">
               <div className="lg:col-span-1">
                 <Image
-                  src="https://ext.same-assets.com/330995101/2380044725.png"
+                  src="/images/miami-Interior-caulking-services.png"
                   alt="Interior Caulking"
                   width={300}
                   height={200}
@@ -552,59 +553,124 @@ export default function InteriorPaintingPage() {
       </section>
 
       {/* Interior Painting Process */}
-      <section className="py-16 bg-gray-50">
+      <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-12 text-gray-800 border-b-2 border-accent pb-2">
+          <h2 className="text-3xl font-bold mb-4 text-gray-800 border-b-2 border-accent pb-2">
             INTERIOR HOUSE PAINTING PROCESS
           </h2>
+          <p className="text-lg text-gray-600 mb-12">
+            There are 6 stages to painting interior areas:
+          </p>
 
-          <p className="text-lg text-gray-600 mb-8">There are 6 stages to painting interior areas:</p>
+          <div className="max-w-4xl mx-auto">
+            <div className="relative">
+              {/* Vertical connecting line */}
+              <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-accent"></div>
 
-          <div className="space-y-8">
-            {[
-              {
-                number: "1",
-                title: "Prepare the work areas",
-                content: "The first step is to get the areas you want to paint ready to start working in. This means moving or removing furniture and fixtures that could get in your way. It also means applying painter's tape and laying down drop cloths to protect the areas you don't want to get paint on."
-              },
-              {
-                number: "2",
-                title: "Remove wallpaper if necessary",
-                content: "If a wall you want to paint has wallpaper on it, you need to remove that first. You should do this carefully – perhaps hiring a professional painting team (like us!) to do it for you – as a botched job can result in pieces of paper or adhesive stuck to the underlying wall surface. This extends your prep time, as you have to remove these as well."
-              },
-              {
-                number: "3",
-                title: "Repair and clean surfaces",
-                content: "You should also patch and sand any cracks, holes, or dents in any of the surfaces you're painting so that the paint will adhere properly for a smooth finish. Similarly, you should clean the surfaces you plan to paint so that dirt, dust, mold, and other contaminants don't get stuck in the paint."
-              },
-              {
-                number: "4",
-                title: "Caulk trim and baseboards",
-                content: "If you have trim or baseboards around the walls you want to paint, you should caulk them to seal them to the walls (unless you plan on removing them before you paint and then re-attaching them afterward). This helps prevent them from becoming unstuck from the walls, which exposes gaps between the old wall color and the new one."
-              },
-              {
-                number: "5",
-                title: "Prime surfaces to be painted",
-                content: "Apply primer to the surfaces you want to paint. If you want to dramatically change the color of a particular surface, or are aiming to paint it a particularly deep color, try using a primer that's pre-tinted to a similar color (a paint store can do this for you). This can make it easier to get the color you want without applying as many coats of paint."
-              },
-              {
-                number: "6",
-                title: "Paint in the right order",
-                content: "If you're painting all of the components of a room, it's best to paint them in a specific order to minimize the chance of making mistakes that are difficult to fix. Generally, you should paint the trim first, then paint the ceiling. Paint the walls next, and save the baseboards for last."
-              }
-            ].map((step, index) => (
-              <div key={index} className="flex gap-6">
-                <div className="flex-shrink-0">
-                  <div className="w-12 h-12 bg-accent rounded-full flex items-center justify-center">
-                    <span className="text-white font-bold text-lg">{step.number}</span>
+              <div className="space-y-8">
+                {/* Step 1 */}
+                <div className="relative flex items-start gap-6">
+                  <div className="relative z-10 flex-shrink-0">
+                    <div className="w-16 h-16 bg-accent rounded-full flex items-center justify-center shadow-lg">
+                      <span className="text-white text-2xl font-bold">1</span>
+                    </div>
+                  </div>
+                  <div className="flex-1 pt-2">
+                    <h3 className="text-xl font-bold mb-2 text-gray-800">
+                      Prepare the work areas
+                    </h3>
+                    <p className="text-gray-600 leading-relaxed">
+                      The first step is to get the areas you want to paint ready to start working in. This means moving or removing furniture and fixtures that could get in your way. It also means applying painter's tape and laying down drop cloths to protect the areas you don't want to get paint on.
+                    </p>
                   </div>
                 </div>
-                <div className="flex-grow">
-                  <h3 className="text-xl font-bold mb-3 text-gray-800">{step.title}</h3>
-                  <p className="text-gray-600 leading-relaxed">{step.content}</p>
+
+                {/* Step 2 */}
+                <div className="relative flex items-start gap-6">
+                  <div className="relative z-10 flex-shrink-0">
+                    <div className="w-16 h-16 bg-accent rounded-full flex items-center justify-center shadow-lg">
+                      <span className="text-white text-2xl font-bold">2</span>
+                    </div>
+                  </div>
+                  <div className="flex-1 pt-2">
+                    <h3 className="text-xl font-bold mb-2 text-gray-800">
+                      Remove wallpaper if necessary
+                    </h3>
+                    <p className="text-gray-600 leading-relaxed">
+                      If a wall you want to paint has wallpaper on it, you need to remove that first. You should do this carefully – perhaps hiring a professional painting team (like us!) to do it for you – as a botched job can result in pieces of paper or adhesive stuck to the underlying wall surface. This extends your prep time, as you have to remove these as well.
+                    </p>
+                  </div>
+                </div>
+
+                {/* Step 3 */}
+                <div className="relative flex items-start gap-6">
+                  <div className="relative z-10 flex-shrink-0">
+                    <div className="w-16 h-16 bg-accent rounded-full flex items-center justify-center shadow-lg">
+                      <span className="text-white text-2xl font-bold">3</span>
+                    </div>
+                  </div>
+                  <div className="flex-1 pt-2">
+                    <h3 className="text-xl font-bold mb-2 text-gray-800">
+                      Repair and clean surfaces
+                    </h3>
+                    <p className="text-gray-600 leading-relaxed">
+                      You should also patch and sand any cracks, holes, or dents in any of the surfaces you're painting so that the paint will adhere properly for a smooth finish. Similarly, you should clean the surfaces you plan to paint so that dirt, dust, mold, and other contaminants don't get stuck in the paint.
+                    </p>
+                  </div>
+                </div>
+
+                {/* Step 4 */}
+                <div className="relative flex items-start gap-6">
+                  <div className="relative z-10 flex-shrink-0">
+                    <div className="w-16 h-16 bg-accent rounded-full flex items-center justify-center shadow-lg">
+                      <span className="text-white text-2xl font-bold">4</span>
+                    </div>
+                  </div>
+                  <div className="flex-1 pt-2">
+                    <h3 className="text-xl font-bold mb-2 text-gray-800">
+                      Caulk trim and baseboards
+                    </h3>
+                    <p className="text-gray-600 leading-relaxed">
+                      If you have trim or baseboards around the walls you want to paint, you should caulk them to seal them to the walls (unless you plan on removing them before you paint and then re-attaching them afterward). This helps prevent them from becoming unstuck from the walls, which exposes gaps between the old wall color and the new one.
+                    </p>
+                  </div>
+                </div>
+
+                {/* Step 5 */}
+                <div className="relative flex items-start gap-6">
+                  <div className="relative z-10 flex-shrink-0">
+                    <div className="w-16 h-16 bg-accent rounded-full flex items-center justify-center shadow-lg">
+                      <span className="text-white text-2xl font-bold">5</span>
+                    </div>
+                  </div>
+                  <div className="flex-1 pt-2">
+                    <h3 className="text-xl font-bold mb-2 text-gray-800">
+                      Prime surfaces to be painted
+                    </h3>
+                    <p className="text-gray-600 leading-relaxed">
+                      Apply primer to the surfaces you want to paint. If you want to dramatically change the color of a particular surface, or are aiming to paint it a particularly deep color, try using a primer that's pre-tinted to a similar color (a paint store can do this for you). This can make it easier to get the color you want without applying as many coats of paint.
+                    </p>
+                  </div>
+                </div>
+
+                {/* Step 6 */}
+                <div className="relative flex items-start gap-6">
+                  <div className="relative z-10 flex-shrink-0">
+                    <div className="w-16 h-16 bg-accent rounded-full flex items-center justify-center shadow-lg">
+                      <span className="text-white text-2xl font-bold">6</span>
+                    </div>
+                  </div>
+                  <div className="flex-1 pt-2">
+                    <h3 className="text-xl font-bold mb-2 text-gray-800">
+                      Paint in the right order
+                    </h3>
+                    <p className="text-gray-600 leading-relaxed">
+                      If you're painting all of the components of a room, it's best to paint them in a specific order to minimize the chance of making mistakes that are difficult to fix. Generally, you should paint the trim first, then paint the ceiling. Paint the walls next, and save the baseboards for last.
+                    </p>
+                  </div>
                 </div>
               </div>
-            ))}
+            </div>
           </div>
         </div>
       </section>
@@ -622,6 +688,17 @@ export default function InteriorPaintingPage() {
                 What are the rates for painting the interior of a house?
                 <ChevronDown className="w-5 h-5" />
               </summary>
+              <div className="p-4 bg-gray-50 text-gray-700">
+                <p className="mb-3">
+                  It depends largely on the size of the area you're painting. Rates for painting the interior of a house in Miami and South Florida can be anywhere from $2-$6 per square foot. Other factors affecting that price include what kind of paint you're using, how much prep work needs to be done on surfaces, how many areas need to be painted at once, how many painters are required, and how difficult it is to paint those surfaces (e.g. if they're thin or have a lot of edges and tricky corners).
+                </p>
+                <p className="mb-3">
+                  Painting multiple rooms at once can cost less, as painters don't have to spend as much time getting to your house and setting up their equipment. So it can be more cost efficient to complete all your painting jobs at once, rather than spread them out over time.
+                </p>
+                <p>
+                  In general, a small home can cost anywhere from $2000 to $4000 to fully paint. A medium-sized home can cost around $3000-$6000 to fully paint, and a large home can cost from $5500 to upwards of $10,000 to fully paint.
+                </p>
+              </div>
             </details>
 
             <details className="border-2 border-accent rounded-lg">
@@ -629,6 +706,11 @@ export default function InteriorPaintingPage() {
                 Are Triumph Painters insured for interior house painting jobs?
                 <ChevronDown className="w-5 h-5" />
               </summary>
+              <div className="p-4 bg-gray-50 text-gray-700">
+                <p>
+                  Yes. We offer comprehensive liability insurance coverage with each project. In addition, our entire team is fully licensed and bonded in Florida, with all required certifications and safety protocols. So if something goes wrong with the job – like your property gets damaged or someone gets hurt – we've got it covered. You can rest assured that Triumph Painters is committed to carrying out all our painting jobs as safely as possible.
+                </p>
+              </div>
             </details>
 
             <details className="border-2 border-accent rounded-lg">
@@ -636,6 +718,20 @@ export default function InteriorPaintingPage() {
                 How long does interior home painting take?
                 <ChevronDown className="w-5 h-5" />
               </summary>
+              <div className="p-4 bg-gray-50 text-gray-700">
+                <p className="mb-3">
+                  That depends on several variables, with some of the key ones being:
+                </p>
+                <ul className="list-disc list-inside mb-3 space-y-1">
+                  <li>How big your home is</li>
+                  <li>How much of your home interior you plan on painting</li>
+                  <li>How well you prepare for the job (e.g. repairing surfaces and removing obstructions)</li>
+                  <li>How many painters are working at once, and how skilled they are</li>
+                </ul>
+                <p>
+                  On average, painting a 12' x 12' room shouldn't take more than 5 or 6 hours for professionals. Painting the whole interior of an average-size 1500-2000 square foot home can take anywhere from 2 to 6 days, depending on the above factors, but shouldn't take more than a week.
+                </p>
+              </div>
             </details>
 
             <details className="border-2 border-accent rounded-lg">
@@ -643,6 +739,22 @@ export default function InteriorPaintingPage() {
                 What are the right tools needed for interior home painting?
                 <ChevronDown className="w-5 h-5" />
               </summary>
+              <div className="p-4 bg-gray-50 text-gray-700">
+                <p className="mb-3">
+                  There are three main tools you should invest in for painting a house interior:
+                </p>
+                <ol className="list-decimal list-inside space-y-3">
+                  <li>
+                    <strong>Drop cloth</strong> – Get quality cotton drop cloths. They don't move around as much and aren't as slippery as surfaces such as newspapers, bedsheets, or plastic drop cloths. This makes them safer options for painting. Paint also tends to dry faster on them, so they better protect your furniture and floors from drips and spills.
+                  </li>
+                  <li>
+                    <strong>Roller</strong> – The type of roller you should use depends on what kind of surface you're painting and how you want it to look. Rollers with shorter naps provide a glossier finish and are better for walls, while rollers with longer naps produce a flatter finish that looks better on places like ceilings.
+                  </li>
+                  <li>
+                    <strong>Paintbrush</strong> – The type and size of paintbrush you use depends on what kind of paint you're using, as well as the specific surface you're painting. Paintbrushes with synthetic bristles are best for latex paints, while ones with natural bristles are better for oil paints or varnishes. In addition, use a smaller paintbrush when working in tight spaces or on smaller surface areas for added precision and fewer mistakes.
+                  </li>
+                </ol>
+              </div>
             </details>
 
             <details className="border-2 border-accent rounded-lg">
@@ -650,6 +762,11 @@ export default function InteriorPaintingPage() {
                 Can't I just DIY my interior house paint job?
                 <ChevronDown className="w-5 h-5" />
               </summary>
+              <div className="p-4 bg-gray-50 text-gray-700">
+                <p>
+                  We aren't saying you can't. But unless you have the right tools AND know how to use them, you may not get the look you're going for or the quality of results you want. For example, some surfaces are difficult to paint because of their size or shape (such as trim or carved wood), requiring expert technique or specific tools (or both) to paint properly. Additionally, some surfaces can be difficult to reach in order to paint them. So you risk injuring yourself if you try to paint them without using the proper equipment. Our professional team at Triumph Painters has the experience, tools, and expertise to ensure your interior painting project is completed safely and to the highest quality standards.
+                </p>
+              </div>
             </details>
 
             <details className="border-2 border-accent rounded-lg">
@@ -657,79 +774,25 @@ export default function InteriorPaintingPage() {
                 What do I have to do to prepare my home for painting?
                 <ChevronDown className="w-5 h-5" />
               </summary>
+              <div className="p-4 bg-gray-50 text-gray-700">
+                <p className="mb-3">
+                  There are a few preparatory things you can do to make painting the interior of your house go smoother. They include:
+                </p>
+                <ul className="list-disc list-inside space-y-2">
+                  <li>Remove or isolate all furniture and fixtures from areas you plan on painting</li>
+                  <li>Remove any wallpaper from walls that will be painted</li>
+                  <li>Fill in and sand down any imperfections in the surfaces you're going to paint</li>
+                  <li>Wash the surfaces you plan on painting to remove any dust, dirt, mold, etc.</li>
+                  <li>Use painter's tape and drop cloths to cover the surfaces you don't want to get paint on</li>
+                </ul>
+                <p className="mt-3">
+                  While you can do these preparations yourself, our professional team at Triumph Painters can handle all of these steps for you, ensuring everything is done correctly and efficiently so your painting project goes smoothly.
+                </p>
+              </div>
             </details>
           </div>
         </div>
       </section>
-
-      {/* Footer */}
-      <footer className="bg-gray-900 text-white py-12">
-        <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-            {/* Contact Info */}
-            <div>
-              <h3 className="text-lg font-semibold mb-4 text-accent">CONTACT INFO</h3>
-              <div className="space-y-3">
-                <p className="flex items-start">
-                  <span className="text-gray-300">📍</span>
-                  <span className="ml-2">1450 Brickell Bay Dr, Miami, FL 33131, USA</span>
-                </p>
-                <p className="flex items-center">
-                  <span className="text-gray-300">📞</span>
-                  <a href="tel:305-555-0123" className="ml-2 hover:text-accent">305-555-0123</a>
-                </p>
-                <p className="flex items-center">
-                  <span className="text-gray-300">✉️</span>
-                  <a href="mailto:info@triumphpainters.com" className="ml-2 hover:text-accent">
-                    info@triumphpainters.com
-                  </a>
-                </p>
-              </div>
-            </div>
-
-            {/* Services */}
-            <div>
-              <h3 className="text-lg font-semibold mb-4 text-accent">SERVICES</h3>
-              <ul className="space-y-2">
-                <li><Link href="/commercial" className="hover:text-accent">Commercial Painting</Link></li>
-                <li><Link href="/industrial" className="hover:text-accent">Industrial Painting</Link></li>
-                <li><Link href="/residential-painting" className="hover:text-accent">Residential Painting</Link></li>
-                <li><Link href="/interior-painting" className="hover:text-accent">Interior Painting</Link></li>
-                <li><Link href="/exterior-painting" className="hover:text-accent">Exterior Painting</Link></li>
-                <li><Link href="/condo-painting" className="hover:text-accent">Condo Painting</Link></li>
-                <li><Link href="/epoxy" className="hover:text-accent">Epoxy Flooring</Link></li>
-              </ul>
-            </div>
-
-            {/* Helpful Links */}
-            <div>
-              <h3 className="text-lg font-semibold mb-4 text-accent">HELPFUL LINKS</h3>
-              <ul className="space-y-2">
-                <li><Link href="/" className="hover:text-accent">Home</Link></li>
-                <li><Link href="/contact" className="hover:text-accent">Contact Us</Link></li>
-                <li><Link href="/service-areas" className="hover:text-accent">Service Areas</Link></li>
-                <li><Link href="/resources" className="hover:text-accent">Learning Center</Link></li>
-                <li><Link href="/about" className="hover:text-accent">About Us</Link></li>
-              </ul>
-            </div>
-
-            {/* Social Media */}
-            <div>
-              <h3 className="text-lg font-semibold mb-4 text-accent">FOLLOW US</h3>
-              <div className="flex space-x-4">
-                <a href="#" className="text-gray-300 hover:text-accent text-2xl">📘</a>
-                <a href="#" className="text-gray-300 hover:text-accent text-2xl">📷</a>
-                <a href="#" className="text-gray-300 hover:text-accent text-2xl">🔗</a>
-                <a href="#" className="text-gray-300 hover:text-accent text-2xl">⭐</a>
-              </div>
-            </div>
-          </div>
-
-          <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
-            <p>Privacy Policy - Copyright 2025 Triumph Painters</p>
-          </div>
-        </div>
-      </footer>
     </div>
   )
 }

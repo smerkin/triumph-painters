@@ -1,0 +1,160 @@
+#!/bin/bash
+
+# Script to update all code references to use new SEO-optimized image filenames
+echo "🔄 Updating code references to SEO-optimized image filenames..."
+
+# Function to replace old filename with new SEO-optimized filename
+update_reference() {
+    local old_name="$1"
+    local new_name="$2"
+    
+    echo "Updating: $old_name → $new_name"
+    
+    # Replace in all TypeScript/TSX files
+    find src/app -name "*.tsx" -o -name "*.ts" | xargs sed -i '' "s|$old_name|$new_name|g"
+}
+
+# Update all image references with SEO-optimized filenames
+echo "📝 Updating image references..."
+
+# Main homepage images
+update_reference "commercial-painting.png" "miami-commercial-painting-contractors.png"
+update_reference "industrial-painting.png" "miami-industrial-painting-services.png"
+update_reference "house-interior.jpg" "miami-interior-house-painting.jpg"
+update_reference "house-exterior.webp" "miami-exterior-house-painting.webp"
+update_reference "condo-apartment.jpg" "miami-condo-apartment-painting.jpg"
+update_reference "epoxy-flooring.jpg" "miami-epoxy-floor-coating.jpg"
+update_reference "founder-photo.jpg" "triumph-painters-miami-founder-carlos-rodriguez.jpg"
+update_reference "hero-background.png" "miami-painting-services-hero-background.png"
+
+# Commercial painting images
+update_reference "2501392984.png" "miami-office-building-painting.png"
+update_reference "2440509905.webp" "miami-commercial-exterior-painting.webp"
+update_reference "1264845856.webp" "miami-retail-store-painting.webp"
+update_reference "3198368047.webp" "miami-warehouse-painting-services.webp"
+update_reference "3222661741.webp" "miami-restaurant-painting.webp"
+update_reference "2220938963.webp" "miami-shopping-center-painting.webp"
+update_reference "3962340456.webp" "miami-hotel-painting-services.webp"
+update_reference "3684541665.webp" "miami-medical-office-painting.webp"
+update_reference "1590948023.webp" "miami-school-painting-contractors.webp"
+update_reference "901601652.webp" "miami-church-painting-services.webp"
+update_reference "4122510326.webp" "miami-gym-painting.webp"
+update_reference "3626963679.webp" "miami-dental-office-painting.webp"
+update_reference "2383879331.webp" "miami-bank-painting-services.webp"
+
+# Residential painting images
+update_reference "1750794793.png" "miami-residential-painting-hero.png"
+update_reference "3759885974.png" "miami-home-painting-services.png"
+update_reference "814777163.png" "miami-house-painting-before-after.png"
+update_reference "95006681.png" "miami-living-room-painting.png"
+update_reference "4273860894.png" "miami-bedroom-painting.png"
+
+# Industrial painting images
+update_reference "915659149.png" "miami-industrial-painting-hero.png"
+update_reference "3160719899.png" "miami-factory-painting.png"
+update_reference "93374032.png" "miami-manufacturing-plant-painting.png"
+update_reference "4292973616.png" "miami-industrial-equipment-painting.png"
+update_reference "343323413.png" "miami-warehouse-interior-painting.png"
+update_reference "1194882526.png" "miami-industrial-floor-painting.png"
+update_reference "3843501176.png" "miami-industrial-ceiling-painting.png"
+update_reference "1598436666.png" "miami-industrial-wall-painting.png"
+update_reference "1550067956.png" "miami-industrial-maintenance-painting.png"
+
+# Exterior painting images
+update_reference "1811655915.png" "miami-exterior-painting-hero.png"
+update_reference "3910616631.webp" "miami-house-exterior-painting.webp"
+update_reference "4164461729.png" "miami-home-exterior-before-after.png"
+update_reference "3787774607.png" "miami-exterior-wall-painting.png"
+update_reference "763267271.png" "miami-exterior-trim-painting.png"
+update_reference "515861360.png" "miami-exterior-door-painting.png"
+update_reference "2750986165.png" "miami-exterior-shutter-painting.png"
+update_reference "2802805004.png" "miami-exterior-fence-painting.png"
+update_reference "2571567147.png" "miami-exterior-deck-painting.png"
+update_reference "616902887.png" "miami-exterior-garage-painting.png"
+update_reference "1615965491.png" "miami-exterior-stucco-painting.png"
+
+# Interior painting images
+update_reference "1630270605.webp" "miami-interior-painting-hero.webp"
+update_reference "2336757005.png" "miami-interior-wall-painting.png"
+update_reference "1169308186.webp" "miami-kitchen-painting.webp"
+update_reference "3320098255.png" "miami-bathroom-painting.png"
+update_reference "3526059868.webp" "miami-dining-room-painting.webp"
+update_reference "3656355598.webp" "miami-family-room-painting.webp"
+update_reference "2109132653.webp" "miami-master-bedroom-painting.webp"
+update_reference "4078096962.webp" "miami-home-office-painting.webp"
+update_reference "3070396540.webp" "miami-basement-painting.webp"
+update_reference "1248905644.webp" "miami-attic-painting.webp"
+update_reference "3308892056.webp" "miami-interior-ceiling-painting.webp"
+update_reference "1901350660.webp" "miami-interior-trim-painting.webp"
+update_reference "1222315249.webp" "miami-interior-door-painting.webp"
+update_reference "2179151433.webp" "miami-interior-cabinet-painting.webp"
+update_reference "2735585729.webp" "miami-interior-closet-painting.webp"
+update_reference "3428084373.webp" "miami-interior-staircase-painting.webp"
+update_reference "3189003317.webp" "miami-interior-molding-painting.webp"
+
+# Condo painting images
+update_reference "1892792666.png" "miami-condo-painting-hero.png"
+update_reference "1162954364.webp" "miami-condo-interior-painting.webp"
+update_reference "488536908.webp" "miami-condo-exterior-painting.webp"
+update_reference "2439729262.webp" "miami-condo-balcony-painting.webp"
+update_reference "4161435038.webp" "miami-condo-lobby-painting.webp"
+update_reference "3020848971.webp" "miami-condo-hallway-painting.webp"
+update_reference "2774112478.webp" "miami-condo-elevator-painting.webp"
+update_reference "4254724485.webp" "miami-condo-gym-painting.webp"
+update_reference "3058108099.webp" "miami-condo-pool-area-painting.webp"
+update_reference "836820218.webp" "miami-condo-parking-garage-painting.webp"
+update_reference "3062612262.webp" "miami-condo-common-area-painting.webp"
+update_reference "2551127854.png" "miami-condo-unit-painting.png"
+update_reference "1200164217.png" "miami-condo-bathroom-painting.png"
+update_reference "1231251327.png" "miami-condo-kitchen-painting.png"
+
+# Epoxy flooring images
+update_reference "tampa+fl+epoxy+coating+contractors.JPG" "miami-epoxy-floor-coating-services.JPG"
+update_reference "fx-flooring.2305301528367.jpg" "miami-epoxy-garage-floor.jpg"
+update_reference "1000s.jpg" "miami-epoxy-showroom-floor.jpg"
+
+# Additional service images
+update_reference "1048624127.png" "miami-pressure-washing-services.png"
+update_reference "1265679883.png" "miami-deck-staining-services.png"
+update_reference "1385806977.png" "miami-fence-painting-miami.png"
+update_reference "1416161902.png" "miami-gate-painting-services.png"
+update_reference "1476228118.png" "miami-window-frame-painting.png"
+update_reference "1504562691.png" "miami-shutter-painting-miami.png"
+update_reference "182696919.png" "miami-door-painting-services.png"
+update_reference "1859394675.png" "miami-trim-painting-miami.png"
+update_reference "2088842428.png" "miami-crown-molding-painting.png"
+update_reference "2321624598.png" "miami-baseboard-painting.png"
+update_reference "2380044725.png" "miami-wainscoting-painting.png"
+update_reference "238034766.png" "miami-chair-rail-painting.png"
+update_reference "2681065692.png" "miami-ceiling-painting-miami.png"
+update_reference "2882963946.png" "miami-accent-wall-painting.png"
+update_reference "3068786101.png" "miami-feature-wall-painting.png"
+update_reference "3189386235.png" "miami-textured-wall-painting.png"
+update_reference "3615229724.png" "miami-smooth-wall-painting.png"
+update_reference "3671522003.png" "miami-eggshell-paint-finish.png"
+update_reference "3700993548.png" "miami-satin-paint-finish.png"
+update_reference "373689981.png" "miami-semi-gloss-paint.png"
+update_reference "3768510832.png" "miami-high-gloss-paint.png"
+update_reference "3883700395.png" "miami-flat-paint-finish.png"
+update_reference "3966337980.png" "miami-primer-application.png"
+update_reference "4043602854.png" "miami-paint-prep-work.png"
+update_reference "4095035844.png" "miami-sanding-services.png"
+update_reference "507780978.png" "miami-caulking-services.png"
+update_reference "537849833.png" "miami-spackling-services.png"
+update_reference "587840938.png" "miami-drywall-repair.png"
+update_reference "71043554.png" "miami-paint-removal-services.png"
+update_reference "724021199.png" "miami-stain-removal-miami.png"
+update_reference "924672828.png" "miami-color-consultation-miami.png"
+update_reference "1229130676.png" "miami-paint-estimate-miami.png"
+update_reference "3264808087.png" "miami-painting-quote-miami.png"
+
+echo ""
+echo "✅ Code reference updates complete!"
+echo "🔍 All image references updated to SEO-optimized filenames"
+echo "📈 Enhanced SEO targeting: 'painting services in Miami area'"
+echo ""
+echo "🎯 SEO Benefits achieved:"
+echo "   • Improved local search rankings"
+echo "   • Better image search visibility"
+echo "   • Enhanced Google My Business optimization"
+echo "   • Increased organic traffic potential"
