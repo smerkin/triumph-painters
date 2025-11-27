@@ -167,7 +167,7 @@ export default function InteriorPaintingPage() {
 
             <div className="relative">
               <Image
-                src="/images/miami-ceilings-painintg.webp"
+                src="/images/miami-ceilings-painting.png"
                 alt="Ceilings"
                 width={400}
                 height={300}

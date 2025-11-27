@@ -22,7 +22,7 @@ export default function IndustrialPaintingPage() {
         </div>
         <div className="absolute inset-0">
           <Image
-            src="/images/miami-industrial-painting-hero.png"
+            src="/images/miami-industrial-painting.png"
             alt="Industrial painting project"
             fill
             className="object-cover"
@@ -88,7 +88,7 @@ export default function IndustrialPaintingPage() {
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start">
               <div className="lg:col-span-1">
                 <Image
-                  src="/images/miami-factory-painting.png"
+                  src="/images/miami-warehouse-painting.png"
                   alt="Warehouse interior"
                   width={300}
                   height={200}

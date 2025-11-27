@@ -112,7 +112,7 @@ export default function HomePage() {
             <Card className="group hover:shadow-lg transition-shadow overflow-hidden">
               <div className="relative h-64">
                 <Image
-                  src="/images/miami-condo-apartment-painting.jpg"
+                  src="/images/miami-condos-painting.png"
                   alt="Condo painting in Florida"
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-300"

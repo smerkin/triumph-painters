@@ -44,8 +44,8 @@ export default function ResidentialPaintingPage() {
           <h2 className="text-3xl lg:text-4xl font-bold mb-6 text-gray-800 border-b-2 border-accent pb-2">
             MIAMI HOME PAINTERS WHO MASTER EVERY CHALLENGE
           </h2>
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
-            <div>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-stretch">
+            <div className="flex flex-col">
               <p className="text-gray-600 mb-6 leading-relaxed">
                 With over a decade of experience painting homes throughout Miami-Dade, Broward, and surrounding areas,
                 Triumph Painters brings unmatched expertise to your residential project. We understand South Florida's unique
@@ -59,7 +59,6 @@ export default function ResidentialPaintingPage() {
                 <li><strong>Condo & Multi-Unit Residences</strong> - Specialized services with HOA compliance</li>
                 <li>Wallpaper removal and surface preparation</li>
                 <li>Trim, doors, and detailed finishing work</li>
-                <li>Epoxy flooring and concrete polishing</li>
               </ul>
 
               <p className="text-gray-600 leading-relaxed">
@@ -67,16 +66,15 @@ export default function ResidentialPaintingPage() {
               </p>
             </div>
 
-            <div className="relative">
+            <div className="relative h-full">
               <div className="bg-accent text-white p-4 text-center font-semibold absolute top-4 left-4 z-10 rounded">
                 Contact Us
               </div>
               <Image
-                src="/images/miami-home-painting-services.png"
+                src="/images/miami-home-painting.png"
                 alt="Beautiful painted interior in Miami home"
-                width={500}
-                height={400}
-                className="w-full h-80 object-cover rounded-lg shadow-lg"
+                fill
+                className="object-cover rounded-lg shadow-lg"
               />
             </div>
           </div>
@@ -105,22 +103,21 @@ export default function ResidentialPaintingPage() {
             TYPES OF RESIDENTIAL PAINTING WE SPECIALIZE IN
           </h2>
 
-          <div className="space-y-12">
+          <div className="space-y-8">
             {/* House Interior */}
-            <div className="grid md:grid-cols-2 gap-8 items-center">
-              <div>
+            <div className="grid md:grid-cols-2 gap-6 items-center">
+              <div className="w-full aspect-[16/9] relative">
                 <Image
-                  src="/images/miami-house-painting-before-after.png"
+                  src="/images/miami-interior-painting.png"
                   alt="Interior house painting Miami"
-                  width={400}
-                  height={300}
-                  className="rounded-lg shadow-lg"
+                  fill
+                  className="rounded-lg shadow-lg object-cover"
                 />
               </div>
               <div>
-                <h3 className="text-2xl font-bold mb-4">House Interior</h3>
-                <p className="text-sm font-semibold text-accent mb-3">Minimize Disruption & Maximize Results</p>
-                <p className="text-gray-600">
+                <h3 className="text-2xl font-bold mb-3">House Interior</h3>
+                <p className="text-sm font-semibold text-accent mb-2">Minimize Disruption & Maximize Results</p>
+                <p className="text-gray-600 text-sm leading-relaxed">
                   Your home is your sanctuary, and the last thing you need is weeks of disruption from contractors who
                   make mistakes or leave a mess behind. We treat your Miami home with the utmost respect, using
                   climate-appropriate paints and proven techniques.
@@ -129,42 +126,40 @@ export default function ResidentialPaintingPage() {
             </div>
 
             {/* House Exterior */}
-            <div className="grid md:grid-cols-2 gap-8 items-center">
+            <div className="grid md:grid-cols-2 gap-6 items-center">
               <div className="order-2 md:order-1">
-                <h3 className="text-2xl font-bold mb-4">House Exterior</h3>
-                <p className="text-sm font-semibold text-accent mb-3">Hurricane-Ready & Aesthetically Superior</p>
-                <p className="text-gray-600">
+                <h3 className="text-2xl font-bold mb-3">House Exterior</h3>
+                <p className="text-sm font-semibold text-accent mb-2">Hurricane-Ready & Aesthetically Superior</p>
+                <p className="text-gray-600 text-sm leading-relaxed">
                   Miami's exterior painting demands more than just good looks - it requires protection against hurricanes,
                   salt air, and year-round UV exposure. Our expertise includes specialized equipment for
                   safe multi-story work and premium weather-resistant paints.
                 </p>
               </div>
-              <div className="order-1 md:order-2">
+              <div className="order-1 md:order-2 w-full aspect-[16/9] relative">
                 <Image
-                  src="/images/miami-living-room-painting.png"
+                  src="/images/miami-house-exterior-painting.png"
                   alt="Exterior house painting Miami"
-                  width={400}
-                  height={300}
-                  className="rounded-lg shadow-lg"
+                  fill
+                  className="rounded-lg shadow-lg object-cover"
                 />
               </div>
             </div>
 
             {/* Condos & Apartments */}
-            <div className="grid md:grid-cols-2 gap-8 items-center">
-              <div>
+            <div className="grid md:grid-cols-2 gap-6 items-center">
+              <div className="w-full aspect-[16/9] relative">
                 <Image
-                  src="/images/miami-bedroom-painting.png"
+                  src="/images/miami-condos-painting.png"
                   alt="Condo painting Miami"
-                  width={400}
-                  height={300}
-                  className="rounded-lg shadow-lg"
+                  fill
+                  className="rounded-lg shadow-lg object-cover"
                 />
               </div>
               <div>
-                <h3 className="text-2xl font-bold mb-4">Condos & Apartments</h3>
-                <p className="text-sm font-semibold text-accent mb-3">HOA-Compliant & Board-Approved Quality</p>
-                <p className="text-gray-600">
+                <h3 className="text-2xl font-bold mb-3">Condos & Apartments</h3>
+                <p className="text-sm font-semibold text-accent mb-2">HOA-Compliant & Board-Approved Quality</p>
+                <p className="text-gray-600 text-sm leading-relaxed">
                   Miami's condo and apartment living comes with unique regulations and challenges. We navigate HOA
                   requirements, coordinate with property management, and handle the complexities of high-rise buildings.
                 </p>
@@ -313,47 +308,11 @@ export default function ResidentialPaintingPage() {
               </CardContent>
             </Card>
 
-            {/* Epoxy Flooring */}
-            <Card className="overflow-hidden">
-              <div className="relative h-48">
-                <Image
-                  src="/images/miami-epoxy-garage-floor.jpg"
-                  alt="Epoxy Flooring"
-                  fill
-                  className="object-cover"
-                />
-              </div>
-              <CardContent className="p-6">
-                <h3 className="text-xl font-bold mb-3 text-gray-800">Epoxy Flooring</h3>
-                <p className="text-gray-600 text-sm">
-                  Epoxy is a great choice for many residential spaces - especially basements, garages, or other specialty room areas - as it can offer a long-term cost effective option, as well as giving the room a great final look.
-                </p>
-              </CardContent>
-            </Card>
-
-            {/* Concrete Polishing */}
-            <Card className="overflow-hidden">
-              <div className="relative h-48">
-                <Image
-                  src="/images/miami-sanding-services.png"
-                  alt="Concrete Polishing"
-                  fill
-                  className="object-cover"
-                />
-              </div>
-              <CardContent className="p-6">
-                <h3 className="text-xl font-bold mb-3 text-gray-800">Concrete Polishing</h3>
-                <p className="text-gray-600 text-sm">
-                  If you have any concrete floors in areas like the garage, the porch, or the basement, we can repair and fill any cracks, smooth them out, and give them a polish to create a beautiful final look that's also durable and long-lasting.
-                </p>
-              </CardContent>
-            </Card>
-
             {/* Wallpaper Removal */}
             <Card className="overflow-hidden">
               <div className="relative h-48">
                 <Image
-                  src="/images/miami-eggshell-paint-finish.png"
+                  src="/images/miami-wallpaper-removal-services.png"
                   alt="Wallpaper Removal"
                   fill
                   className="object-cover"
@@ -371,7 +330,7 @@ export default function ResidentialPaintingPage() {
             <Card className="overflow-hidden">
               <div className="relative h-48">
                 <Image
-                  src="/images/miami-pressure-washing-services.png"
+                  src="/images/miami-Interior-caulking-services.png"
                   alt="Interior Caulking"
                   fill
                   className="object-cover"
@@ -389,7 +348,7 @@ export default function ResidentialPaintingPage() {
             <Card className="overflow-hidden">
               <div className="relative h-48">
                 <Image
-                  src="/images/miami-exterior-stucco-concrete-painting.png"
+                  src="/images/miami-stucco-popcorn-ceiling-removal.png"
                   alt="Interior & Exterior Stucco Painting or Removal"
                   fill
                   className="object-cover"
@@ -399,24 +358,6 @@ export default function ResidentialPaintingPage() {
                 <h3 className="text-xl font-bold mb-3 text-gray-800">Interior & Exterior Stucco Painting or Removal</h3>
                 <p className="text-gray-600 text-sm">
                   If you're looking for a unique finish to your home exterior or ceilings and want stucco added, we can help you with that. If you have older stucco surfaces you want gone, we can remove them with our professional tools and quick practices too!
-                </p>
-              </CardContent>
-            </Card>
-
-            {/* Brick Painting & Staining */}
-            <Card className="overflow-hidden">
-              <div className="relative h-48">
-                <Image
-                  src="/images/miami-exterior-brick-masonry-painting.png"
-                  alt="Brick Painting & Staining"
-                  fill
-                  className="object-cover"
-                />
-              </div>
-              <CardContent className="p-6">
-                <h3 className="text-xl font-bold mb-3 text-gray-800">Brick Painting & Staining</h3>
-                <p className="text-gray-600 text-sm">
-                  Do you have a brick exterior on your home? If so, it requires painting and staining in a very particular way that's best left to professionals with the right tools, and who have lots of experience painting residential brick walls.
                 </p>
               </CardContent>
             </Card>
@@ -568,44 +509,101 @@ export default function ResidentialPaintingPage() {
             WHAT'S INVOLVED IN THE PAINTING PROCESS FOR RESIDENTIAL?
           </h2>
           
-          <p className="text-lg text-gray-600 mb-8">
+          <p className="text-lg text-gray-600 mb-12">
             There are typically 5 stages to painting residential homes:
           </p>
 
-          <div className="space-y-8 max-w-4xl">
-            <div>
-              <h3 className="text-xl font-bold mb-3 text-gray-800">1. Cleaning & Preparing Surfaces</h3>
-              <p className="text-gray-600">
-                Any surface being painted - inside or outside - needs to be cleaned properly to remove dust, dirt, mildew, pollen, loose paint, or anything else that's going to leave your painted surface less than perfect. This helps the paint adhere to the surface better, and is especially important for outdoor surfaces that often get dirtier than interior spaces.
-              </p>
-            </div>
+          <div className="max-w-4xl mx-auto">
+            <div className="relative">
+              {/* Vertical connecting line */}
+              <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-accent"></div>
 
-            <div>
-              <h3 className="text-xl font-bold mb-3 text-gray-800">2. Repair Any Damaged Areas</h3>
-              <p className="text-gray-600">
-                If any cracks, taping, patching, or repairs on walls are needed, caulking trim and baseboards, wallpaper removal, or any other type of preparation required, this is the time to do it. It's important to make sure all surfaces are ready for the paint, which can also include priming the surfaces for the paint to adhere better.
-              </p>
-            </div>
+              <div className="space-y-8">
+                {/* Step 1 */}
+                <div className="relative flex items-start gap-6">
+                  <div className="relative z-10 flex-shrink-0">
+                    <div className="w-16 h-16 bg-accent rounded-full flex items-center justify-center shadow-lg">
+                      <span className="text-white text-2xl font-bold">1</span>
+                    </div>
+                  </div>
+                  <div className="flex-1 pt-2">
+                    <h3 className="text-xl font-bold mb-2 text-gray-800">
+                      Cleaning & Preparing Surfaces
+                    </h3>
+                    <p className="text-gray-600 leading-relaxed">
+                      Any surface being painted - inside or outside - needs to be cleaned properly to remove dust, dirt, mildew, pollen, loose paint, or anything else that's going to leave your painted surface less than perfect. This helps the paint adhere to the surface better, and is especially important for outdoor surfaces that often get dirtier than interior spaces.
+                    </p>
+                  </div>
+                </div>
 
-            <div>
-              <h3 className="text-xl font-bold mb-3 text-gray-800">3. Painting the Trim/Siding Areas</h3>
-              <p className="text-gray-600">
-                Many interior surfaces like baseboards, trim, or crown molding, or exterior surfaces like siding and trim can often be painted first to get the detail work out of the way, or utilise sprayers and other tools to help the work go faster.
-              </p>
-            </div>
+                {/* Step 2 */}
+                <div className="relative flex items-start gap-6">
+                  <div className="relative z-10 flex-shrink-0">
+                    <div className="w-16 h-16 bg-accent rounded-full flex items-center justify-center shadow-lg">
+                      <span className="text-white text-2xl font-bold">2</span>
+                    </div>
+                  </div>
+                  <div className="flex-1 pt-2">
+                    <h3 className="text-xl font-bold mb-2 text-gray-800">
+                      Repair Any Damaged Areas
+                    </h3>
+                    <p className="text-gray-600 leading-relaxed">
+                      If any cracks, taping, patching, or repairs on walls are needed, caulking trim and baseboards, wallpaper removal, or any other type of preparation required, this is the time to do it. It's important to make sure all surfaces are ready for the paint, which can also include priming the surfaces for the paint to adhere better.
+                    </p>
+                  </div>
+                </div>
 
-            <div>
-              <h3 className="text-xl font-bold mb-3 text-gray-800">4. Painting the Walls/Bulk Area</h3>
-              <p className="text-gray-600">
-                Once all the prep and detail work is out of the way, you can proceed to painting the main surface areas like the ceilings, inside/outside walls, staining brick, and so on, usually with rollers or sometimes with sprayers.
-              </p>
-            </div>
+                {/* Step 3 */}
+                <div className="relative flex items-start gap-6">
+                  <div className="relative z-10 flex-shrink-0">
+                    <div className="w-16 h-16 bg-accent rounded-full flex items-center justify-center shadow-lg">
+                      <span className="text-white text-2xl font-bold">3</span>
+                    </div>
+                  </div>
+                  <div className="flex-1 pt-2">
+                    <h3 className="text-xl font-bold mb-2 text-gray-800">
+                      Painting the Trim/Siding Areas
+                    </h3>
+                    <p className="text-gray-600 leading-relaxed">
+                      Many interior surfaces like baseboards, trim, or crown molding, or exterior surfaces like siding and trim can often be painted first to get the detail work out of the way, or utilise sprayers and other tools to help the work go faster.
+                    </p>
+                  </div>
+                </div>
 
-            <div>
-              <h3 className="text-xl font-bold mb-3 text-gray-800">5. Touchups and Finishing Touches</h3>
-              <p className="text-gray-600">
-                When all the work is out of the way, you want to check every little area and make sure to tidy up any small flaws you see with detailed work. At this stage you'd also clean up all the supplies, and make sure the paint didn't leave any kind of mess behind.
-              </p>
+                {/* Step 4 */}
+                <div className="relative flex items-start gap-6">
+                  <div className="relative z-10 flex-shrink-0">
+                    <div className="w-16 h-16 bg-accent rounded-full flex items-center justify-center shadow-lg">
+                      <span className="text-white text-2xl font-bold">4</span>
+                    </div>
+                  </div>
+                  <div className="flex-1 pt-2">
+                    <h3 className="text-xl font-bold mb-2 text-gray-800">
+                      Painting the Walls/Bulk Area
+                    </h3>
+                    <p className="text-gray-600 leading-relaxed">
+                      Once all the prep and detail work is out of the way, you can proceed to painting the main surface areas like the ceilings, inside/outside walls, staining brick, and so on, usually with rollers or sometimes with sprayers.
+                    </p>
+                  </div>
+                </div>
+
+                {/* Step 5 */}
+                <div className="relative flex items-start gap-6">
+                  <div className="relative z-10 flex-shrink-0">
+                    <div className="w-16 h-16 bg-accent rounded-full flex items-center justify-center shadow-lg">
+                      <span className="text-white text-2xl font-bold">5</span>
+                    </div>
+                  </div>
+                  <div className="flex-1 pt-2">
+                    <h3 className="text-xl font-bold mb-2 text-gray-800">
+                      Touchups and Finishing Touches
+                    </h3>
+                    <p className="text-gray-600 leading-relaxed">
+                      When all the work is out of the way, you want to check every little area and make sure to tidy up any small flaws you see with detailed work. At this stage you'd also clean up all the supplies, and make sure the paint didn't leave any kind of mess behind.
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
